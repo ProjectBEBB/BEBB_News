@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="testmeldung-erster-release" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Testmeldung: Erster offizieller Release der BEBB</title>
+            </titleStmt>
+            <publicationStmt>
+                <date when="2026-11-15"/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Testbeitrag für den News-Feed der BEBB.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#bebb-news">
+                    <term type="homepage">yes</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text xml:lang="de">
+        <body>
+            <div type="news" subtype="published">
+                <p>Mit ihrem ersten offiziellen Release liegt die Basler Edition der Bernoulli-Briefwechsel (BEBB) als stabile Betaversion vor.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
