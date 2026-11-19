@@ -3,13 +3,18 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Testmeldung: Erster offizieller Release der BEBB</title>
+                <title>Testvorschau: Öffentlicher Beta-Release der BEBB</title>
+                <author>Basler Edition der Bernoulli-Briefwechsel</author>
             </titleStmt>
             <publicationStmt>
-                <date when="2026-11-15"/>
+                <publisher>Basler Edition der Bernoulli-Briefwechsel</publisher>
+                <date when="2026-11-19"/>
+                <availability>
+                    <p>Öffentliche Testvorschau für die Prüfung von Startseite und News-Feed. Keine Ankündigung einer abgeschlossenen Datenveröffentlichung.</p>
+                </availability>
             </publicationStmt>
             <sourceDesc>
-                <p>Testbeitrag für den News-Feed der BEBB.</p>
+                <p>Testfassung des vorbereiteten Release-Beitrags für den regulären News-Feed der BEBB.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -19,11 +24,30 @@
                 </keywords>
             </textClass>
         </profileDesc>
+        <revisionDesc>
+            <change when="2026-11-19">Vollständige Release-Testvorschau mit Bild für den regulären News-Feed vorbereitet.</change>
+        </revisionDesc>
     </teiHeader>
     <text xml:lang="de">
         <body>
             <div type="news" subtype="published">
-                <p>Mit ihrem ersten offiziellen Release liegt die Basler Edition der Bernoulli-Briefwechsel (BEBB) als stabile Betaversion vor.</p>
+                <figure>
+                    <graphic url="release-perspektive-tiefenunschaerfe-enger-v3.png"/>
+                    <figDesc>KI-Gestaltungsillustration der BEBB-Startseite mit einer Darstellung aufgefächerter Briefe.</figDesc>
+                    <head>Die neue BEBB-Startseite (KI-Gestaltungsillustration).</head>
+                </figure>
+
+                <p><hi rend="bold">Testvorschau für Startseite und News-Feed. Der Datenrelease ist noch nicht veröffentlicht.</hi></p>
+
+                <p>Die Basler Edition der Bernoulli-Briefwechsel (BEBB) bereitet ihren öffentlichen Beta-Release vor. Der Veröffentlichung geht eine Testphase voraus, in der die Edition seit Februar 2024 zugänglich war. Mit dem Beta-Release soll die BEBB als stabile Betaversion vorliegen.</p>
+
+                <milestone unit="read-more"/>
+
+                <p>Die Editionsdaten dieses Releases sollen auf Zenodo archiviert und über eine DOI dauerhaft zitierbar werden. Derselbe Datenstand soll im GitHub-Repositorium BEBB_Data_Prod zur Verfügung stehen.</p>
+
+                <p>Die neue Startseite bietet direkten Zugang zu den Briefwechseln und zur Volltextsuche. Wo Digitalisate vorliegen, lassen sich Editionstext und Handschrift nebeneinander betrachten und vergleichen. Die Register erschliessen die in den Briefen genannten Personen, Orte und Werke.</p>
+
+                <p>Die Edition wird fortlaufend erweitert. Das Projektteam erarbeitet weitere Brieftexte anhand der Handschriften, ergänzt die Metadaten und die Registererschliessung. Ausgewählte Korrespondenzen werden darüber hinaus wissenschaftlich kommentiert. Unter «Aktuell» informieren wir künftig über neue Editionsstände und geben Einblick in die wissenschaftliche Arbeit am Projekt.</p>
             </div>
         </body>
     </text>
