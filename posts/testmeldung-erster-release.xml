@@ -3,18 +3,18 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Testvorschau: Öffentlicher Beta-Release der BEBB</title>
+                <title>Öffentlicher Beta-Release der BEBB</title>
                 <author>Basler Edition der Bernoulli-Briefwechsel</author>
             </titleStmt>
             <publicationStmt>
                 <publisher>Basler Edition der Bernoulli-Briefwechsel</publisher>
                 <date when="2026-11-19"/>
                 <availability>
-                    <p>Öffentliche Testvorschau für die Prüfung von Startseite und News-Feed. Keine Ankündigung einer abgeschlossenen Datenveröffentlichung.</p>
+                    <p>Öffentliche Mitteilung zum Beta-Release der BEBB.</p>
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <p>Testfassung des vorbereiteten Release-Beitrags für den regulären News-Feed der BEBB.</p>
+                <p>Born-digital-Mitteilung der BEBB.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -25,6 +25,7 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change when="2026-11-19">Testhinweise aus Titel und Meldung entfernt; Aussagen zum bevorstehenden Datenrelease beibehalten.</change>
             <change when="2026-11-19">Vollständige Release-Testvorschau mit Bild für den regulären News-Feed vorbereitet.</change>
         </revisionDesc>
     </teiHeader>
@@ -35,8 +36,6 @@
                     <graphic url="release-perspektive-tiefenunschaerfe-enger-v3.png"/>
                     <figDesc>KI-Gestaltungsillustration der BEBB-Startseite mit einer Darstellung aufgefächerter Briefe.</figDesc>
                 </figure>
-
-                <p><hi rend="bold">Testvorschau für Startseite und News-Feed. Der Datenrelease ist noch nicht veröffentlicht.</hi></p>
 
                 <p>Die Basler Edition der Bernoulli-Briefwechsel (BEBB) bereitet ihren öffentlichen Beta-Release vor. Der Veröffentlichung geht eine Testphase voraus, in der die Edition seit Februar 2024 zugänglich war. Mit dem Beta-Release soll die BEBB als stabile Betaversion vorliegen.</p>
 
